@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- Optimised for 1920x1080 resolution or a 15" display -->
+
+
+<!--
+
+This is minimalistic version of a homework No. 1
+for a full "piggy" .html file, please visit https://github.com/MarvelousMartin/ZnackovaciJazyky/blob/master/Exercise%201/index.html
+
+-->
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Značkovací jazyky - cvičení 1</title>
+    <style>
+        html{font-family: 'Montserrat', sans-serif;}
+        h1 {color: red;}
+        h3 {color: darkorange;}
+        header{background-image: url("https://github.com/MarvelousMartin/ZnackovaciJazyky/blob/master/Exercise%201/assets/banner.png?raw=true") }
+    </style>
+</head>
+<body>
+    <header style="min-height: 20vh; background-size: cover; width: 100%">
+    </header>
+    <section id="main" style="text-align: center">
+        <h1>Novinky ze světa a drbokoutek</h1>
+    </section>
+    <aside style="float: right; padding-right: 150px">
+        <form style="display: inline-block">
+            <label>
+                <strong>Hledat článek</strong>
+                <input type="search"/>
+            </label>
+            <button type="submit">Hledat</button>
+        </form>
+        <nav>
+            <ul>
+                <li><a href="#">Ze světa</a></li>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Spatřeno živě</a></li>
+                <li><a href="#">Drbokoutek</a></li>
+                <li><a href="#">Koktejl</a></li>
+                <li><a href="#">Medicína</a></li>
+                <li><a href="#">Věda a technika</a></li>
+                <li><a href="#">Hudba</a></li>
+                <li><a href="#" style="color: red">ARCHIV</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main style="padding: 10px 0 10px 100px; max-width: 1100px; margin: 0 auto">
+        <article id="3">
+            <img src="https://raw.githubusercontent.com/MarvelousMartin/ZnackovaciJazyky/master/Exercise%201/assets/news-banner.jpg" style="max-width: 110px; float: left; padding-right: 10px" alt="News_img">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis bibendum, lectus ut viverra rhoncus,
+                dolor nunc faucibus libero, eget facilisis enim ipsum id lacus.</p>
+        </article>
+        <article id="2">
+            <img src="https://raw.githubusercontent.com/MarvelousMartin/ZnackovaciJazyky/master/Exercise%201/assets/news-banner.jpg" style="max-width: 110px; float: left; padding-right: 10px" alt="News_img">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis bibendum, lectus ut viverra rhoncus,
+                dolor nunc faucibus libero, eget facilisis enim ipsum id lacus.</p>
+        </article>
+        <article id="1">
+            <img src="https://raw.githubusercontent.com/MarvelousMartin/ZnackovaciJazyky/master/Exercise%201/assets/news-banner.jpg" style="max-width: 110px; float: left; padding-right: 10px" alt="News_img">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis bibendum, lectus ut viverra rhoncus,
+                dolor<br> nunc faucibus libero, eget facilisis enim ipsum id lacus.</p>
+        </article>
+        <br> <!-- I am used to use this, don't hate me please (: -->
+        <button>Všechny novinky</button>
+    </main>
+    <footer id="footer" style="text-align: center">
+        <p><a href="#">Facebook</a>&nbsp;<a href="#">Twitter</a>&nbsp;<a href="#">LinkedIn</a></p>
+        <!-- Created and licensed by Martin Dub, a CULS Prague student -->
+        <p>&copy; Martin Dub, 2021</p>
+    </footer>
+</body>
+</html>
