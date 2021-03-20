@@ -115,7 +115,7 @@
         </krypto>
         <tokeny>
             <token typ="NFT">
-                <nazev>Cryptopunk 5563</nazev>
+                <nazev>Cryptopunk #5563</nazev>
                 <koupe mena="ETH">1,02</koupe>
                 <vlastnosti>
                     <vlastnost nazev="Vape">272</vlastnost>
