@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c9b6efb-569f-42bc-b32c-4621db4b5f68" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Exercise 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise 1/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4cbd9ba1-5f33-4759-b81c-8e8dd34246d2" name="Default Changelist" comment="Exercise 3 slight changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/summary.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/resources/summary.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1q1lCT3g3dJ8x6MCXhcaY4ipXLp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1q27XNsl95pctHUTKfXNX8CLdUX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,31 +26,85 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4c9b6efb-569f-42bc-b32c-4621db4b5f68" name="Default Changelist" comment="" />
-      <created>1616254848875</created>
+      <changelist id="4cbd9ba1-5f33-4759-b81c-8e8dd34246d2" name="Default Changelist" comment="" />
+      <created>1616265869314</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1616254848875</updated>
-      <workItem from="1616254849921" duration="4589000" />
+      <updated>1616265869314</updated>
+      <workItem from="1616265870660" duration="685000" />
+      <workItem from="1616266757750" duration="110000" />
+      <workItem from="1616278072827" duration="203000" />
+      <workItem from="1616333195089" duration="2280000" />
     </task>
+    <task id="LOCAL-00001" summary="Exercise 3 final solution">
+      <created>1616265962882</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616265962882</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Exercise 3 final solution">
+      <created>1616266824744</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616266824744</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exercise 3 slight changes">
+      <created>1616334422913</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616334422914</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exercise 3 final solution" />
+    <MESSAGE value="Exercise 3 slight changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 3 slight changes" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1028" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616254903526">
+    <state x="905" y="267" key="CommitChangelistDialog2" timestamp="1616334869809">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1028" y="502" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1616254903526" />
-    <state x="1545" y="267" key="CommitChangelistDialog2" timestamp="1616259433551">
+    <state x="905" y="267" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1616334869809" />
+    <state x="781" y="345" key="SettingsEditor" timestamp="1616333205245">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1545" y="267" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1616259433551" />
+    <state x="781" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1616333205245" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1616334430162">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1616334430162" />
+    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616335358806">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1616335358806" />
   </component>
 </project>

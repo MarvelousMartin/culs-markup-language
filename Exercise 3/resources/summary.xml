@@ -5,9 +5,9 @@
         <cennePapiry>
             <akcie>
                 <nazev>Tesla</nazev>
-                <cena mena="USD">652,1</cena>
-                <pocetAkcii vlastnik="Martin">0,33</pocetAkcii>
-                <pocetAkcii vlastnik="Jan">2,15</pocetAkcii>
+                <cena mena="USD">652.1</cena>
+                <pocetAkcii vlastnik="Martin">0.33</pocetAkcii>
+                <pocetAkcii vlastnik="Jan">2.15</pocetAkcii>
                 <pocetAkcii vlastnik="Karolina">12</pocetAkcii>
             </akcie>
         </cennePapiry>
@@ -48,7 +48,7 @@
                 <vObehuOd>2012</vObehuOd>
                 <zalozil>Chris Larsen</zalozil>
                 <pocetMinci>100000000000</pocetMinci>
-                <cena mena="USD">0,48</cena>
+                <cena mena="USD">0.48</cena>
                 <cena mena="CZK">11</cena>
                 <halvingNext>NaN</halvingNext>
             </kryptomena>
@@ -58,8 +58,8 @@
                 <vObehuOd>2011</vObehuOd>
                 <zalozil>Ted Kim</zalozil>
                 <pocetMinci>21000000000</pocetMinci>
-                <cena mena="USD">0,21</cena>
-                <cena mena="CZK">4,6</cena>
+                <cena mena="USD">0.21</cena>
+                <cena mena="CZK">4.6</cena>
                 <halvingNext>2022</halvingNext>
             </kryptomena>
             <kryptomena>
@@ -68,8 +68,8 @@
                 <vObehuOd>2014</vObehuOd>
                 <zalozil>Jed McCaleb</zalozil>
                 <pocetMinci>50000000000</pocetMinci>
-                <cena mena="USD">0,4</cena>
-                <cena mena="CZK">9,11</cena>
+                <cena mena="USD">0.4</cena>
+                <cena mena="CZK">9.11</cena>
                 <halvingNext>NaN</halvingNext>
             </kryptomena>
             <kryptomena>
@@ -79,7 +79,7 @@
                 <zalozil>Gavin Wood</zalozil>
                 <pocetMinci>1057896407</pocetMinci>
                 <cena mena="USD">40</cena>
-                <cena mena="CZK">866,13</cena>
+                <cena mena="CZK">866.13</cena>
                 <halvingNext>NaN</halvingNext>
             </kryptomena>
             <kryptomena>
@@ -88,8 +88,8 @@
                 <vObehuOd>2013</vObehuOd>
                 <zalozil>Billy Markus</zalozil>
                 <pocetMinci>inf</pocetMinci>
-                <cena mena="USD">0,05</cena>
-                <cena mena="CZK">1,3</cena>
+                <cena mena="USD">0.05</cena>
+                <cena mena="CZK">1.3</cena>
                 <halvingNext>NaN</halvingNext>
             </kryptomena>
             <kryptomena>
@@ -99,7 +99,7 @@
                 <zalozil>Nicolas van Saberhagen</zalozil>
                 <pocetMinci>inf</pocetMinci>
                 <cena mena="USD">234</cena>
-                <cena mena="CZK">5149,6</cena>
+                <cena mena="CZK">5149.6</cena>
                 <halvingNext>2021</halvingNext>
             </kryptomena>
             <kryptomena>
@@ -109,14 +109,14 @@
                 <zalozil>Brian Chesky</zalozil>
                 <pocetMinci>170533651</pocetMinci>
                 <cena mena="USD">271</cena>
-                <cena mena="CZK">5953,11</cena>
+                <cena mena="CZK">5953.11</cena>
                 <halvingNext>NaN</halvingNext>
             </kryptomena>
         </krypto>
         <tokeny>
             <token typ="NFT">
                 <nazev>Cryptopunk #5563</nazev>
-                <koupe mena="ETH">1,02</koupe>
+                <koupe mena="ETH">1.02</koupe>
                 <vlastnosti>
                     <vlastnost nazev="Vape">272</vlastnost>
                     <vlastnost nazev="Hot Lipstick">696</vlastnost>
@@ -128,12 +128,12 @@
         <komodity>
             <komodita kod="XAU">
                 <nazev>Zlato</nazev>
-                <cena mena="CZK">38173,86</cena>
+                <cena mena="CZK">38173.86</cena>
                 <trh druh="Bearish or Bullish">Bearish</trh>
             </komodita>
             <komodita kod="XAG">
                 <nazev>Stříbro</nazev>
-                <cena mena="CZK">573,69</cena>
+                <cena mena="CZK">573.69</cena>
                 <trh druh="Bearish or Bullish">Bullish</trh>
             </komodita>
         </komodity>

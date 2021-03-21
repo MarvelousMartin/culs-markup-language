@@ -1,259 +1,244 @@
-
 {
   "portfolio": {
     "cennePapiry": {
-      "nazev": "Tesla",
-      "cena": "652,1"
+      "akcie": {
+        "nazev": "Tesla",
+        "cena": 652.1,
+        "pocetAkcii": [
+          {
+            "vlastnik" : "Martin",
+            "mnozstvi" : 0.33
+          },
+          {
+            "vlastnik" : "Jan",
+            "mnozstvi" : 2.15
+          },
+          {
+            "vlastnik" : "Karolina",
+            "mnozstvi" : 12
+          }
+        ]
+      }
     },
-    "pocetAkcii": [
+    "krypto": [
       {
-        "-vlastnik": "Martin",
-        "#text": "0,33"
+        "nazev": "Bitcoin",
+        "zkratka": "BTC",
+        "vObehuOd": 2009,
+        "zalozil": "Satoshi Nakamoto",
+        "pocetMinci": 21000000,
+        "cena": [
+          {
+            "mena" : "USD",
+            "hodnota" : 58450
+          },
+          {
+            "mena": "CZK",
+            "hodnota": 1294127
+          }
+        ],
+        "halvingNext": 2024
       },
       {
-        "-vlastnik": "Jan",
-        "#text": "2,15"
+        "nazev": "Ethereum",
+        "zkratka": "ETH",
+        "vObehuOd": 2014,
+        "zalozil": "Joe Lubin",
+        "pocetMinci": "inf",
+        "cena": [
+          {
+            "mena" : "USD",
+            "hodnota" : 1860
+          },
+          {
+            "mena": "CZK",
+            "hodnota": 40522
+          }
+        ],
+        "halvingNext": "NaN"
       },
       {
-        "-vlastnik": "Karolina",
-        "#text": "12"
+        "nazev": "Litecoin",
+        "zkratka": "LTC",
+        "vObehuOd": 2013,
+        "zalozil": "Charlie Lee",
+        "pocetMinci": 84000000,
+        "cena": [
+          {
+            "mena" : "USD",
+            "hodnota" : 204
+          },
+          {
+            "mena": "CZK",
+            "hodnota": 4458
+          }
+        ],
+        "halvingNext": "NaN"
+      },
+      {
+        "nazev": "Ripple",
+        "zkratka": "XRP",
+        "vObehuOd": 2012,
+        "zalozil": "Chris Larsen",
+        "pocetMinci": 100000000000,
+        "cena": [
+          {
+            "mena" : "USD",
+            "hodnota" : 0.48
+          },
+          {
+            "mena": "CZK",
+            "hodnota": 11
+          }
+        ],
+        "halvingNext": "NaN"
+      },
+      {
+        "nazev": "RavenCoin",
+        "zkratka": "RVN",
+        "vObehuOd": 2011,
+        "zalozil": "Ted Kim",
+        "pocetMinci": 21000000000,
+        "cena": [
+          {
+            "mena" : "USD",
+            "hodnota" : 0.21
+          },
+          {
+            "mena": "CZK",
+            "hodnota": 4.6
+          }
+        ],
+        "halvingNext": 2022
+      },
+      {
+        "nazev": "Stellar",
+        "zkratka": "XLM",
+        "vObehuOd": 2014,
+        "zalozil": "Jed McCaleb",
+        "pocetMinci": 50000000000,
+        "cena": [
+          {
+            "mena" : "USD",
+            "hodnota" : 0.4
+          },
+          {
+            "mena": "CZK",
+            "hodnota": 9.11
+          }
+        ],
+        "halvingNext": "NaN"
+      },
+      {
+        "nazev": "Polkadot",
+        "zkratka": "DOT",
+        "vObehuOd": 2020,
+        "zalozil": "Gavin Wood",
+        "pocetMinci": 1057896407,
+        "cena": [
+          {
+            "mena" : "USD",
+            "hodnota" : 40
+          },
+          {
+            "mena": "CZK",
+            "hodnota": 866.13
+          }
+        ],
+        "halvingNext": "NaN"
+      },
+      {
+        "nazev": "Dogecoin",
+        "zkratka": "DOGE",
+        "vObehuOd": 2013,
+        "zalozil": "Billy Markus",
+        "pocetMinci": "inf",
+        "cena": [
+          {
+            "mena" : "USD",
+            "hodnota" : 0.05
+          },
+          {
+            "mena": "CZK",
+            "hodnota": 1.3
+          }
+        ],
+        "halvingNext": "NaN"
+      },
+      {
+        "nazev": "Monero",
+        "zkratka": "XMR",
+        "vObehuOd": 2014,
+        "zalozil": "Nicolas van Saberhagen",
+        "pocetMinci": "inf",
+        "cena": [
+          {
+            "mena" : "USD",
+            "hodnota" : 234
+          },
+          {
+            "mena": "CZK",
+            "hodnota": 5149.6
+          }
+        ],
+        "halvingNext": 2021
+      },
+      {
+        "nazev": "Binance Coin",
+        "zkratka": "BNB",
+        "vObehuOd": 2017,
+        "zalozil": "Brian Chesky",
+        "pocetMinci": 170533651,
+        "cena": [
+          {
+            "mena" : "USD",
+            "hodnota" : 271
+          },
+          {
+            "mena": "CZK",
+            "hodnota": 5953.11
+          }
+        ],
+        "halvingNext": "NaN"
+      }
+    ],
+    "tokeny": [
+      {
+        "nazev": "Cryptopunk #5563",
+        "koupe": 1.02,
+        "vlastnosti": {
+          "vlastnost": [
+            {
+              "nazev" : "Vape",
+              "hodnota" : 272
+            },
+            {
+              "nazev": "Hot Lipstick",
+              "hodnota": 696
+            },
+            {
+              "nazev" : "Wild Blonde",
+              "hodnota" : 144
+            },
+            {
+              "nazev": "Earring",
+              "hodnota": 2459
+            }
+          ]
+        }
+      }
+    ],
+    "komodity": [
+      {
+        "nazev": "Zlato",
+        "cena": 38173.86,
+        "trh": "Bearish"
+      },
+      {
+        "nazev": "Stříbro",
+        "cena": 573.69,
+        "trh": "Bullish"
       }
     ]
-  },
-  "krypto": [
-    {
-      "nazev": "Bitcoin",
-      "zkratka": "BTC",
-      "vObehuOd": "2009",
-      "zalozil": "Satoshi Nakamoto",
-      "pocetMinci": "21000000",
-      "cena": [
-        {
-          "-mena": "USD",
-          "#text": "58450"
-        },
-        {
-          "-mena": "CZK",
-          "#text": "1294127"
-        }
-      ],
-      "halvingNext": "2024"
-    },
-    {
-      "nazev": "Ethereum",
-      "zkratka": "ETH",
-      "vObehuOd": "2014",
-      "zalozil": "Joe Lubin",
-      "pocetMinci": "inf",
-      "cena": [
-        {
-          "-mena": "USD",
-          "#text": "1860"
-        },
-        {
-          "-mena": "CZK",
-          "#text": "40522"
-        }
-      ],
-      "halvingNext": "NaN"
-    },
-    {
-      "nazev": "Litecoin",
-      "zkratka": "LTC",
-      "vObehuOd": "2013",
-      "zalozil": "Charlie Lee",
-      "pocetMinci": "84000000",
-      "cena": [
-        {
-          "-mena": "USD",
-          "#text": "204"
-        },
-        {
-          "-mena": "CZK",
-          "#text": "4458"
-        }
-      ],
-      "halvingNext": "NaN"
-    },
-    {
-      "nazev": "Ripple",
-      "zkratka": "XRP",
-      "vObehuOd": "2012",
-      "zalozil": "Chris Larsen",
-      "pocetMinci": "100000000000",
-      "cena": [
-        {
-          "-mena": "USD",
-          "#text": "0,48"
-        },
-        {
-          "-mena": "CZK",
-          "#text": "11"
-        }
-      ],
-      "halvingNext": "NaN"
-    },
-    {
-      "nazev": "RavenCoin",
-      "zkratka": "RVN",
-      "vObehuOd": "2011",
-      "zalozil": "Ted Kim",
-      "pocetMinci": "21000000000",
-      "cena": [
-        {
-          "-mena": "USD",
-          "#text": "0,21"
-        },
-        {
-          "-mena": "CZK",
-          "#text": "4,6"
-        }
-      ],
-      "halvingNext": "2022"
-    },
-    {
-      "nazev": "Stellar",
-      "zkratka": "XLM",
-      "vObehuOd": "2014",
-      "zalozil": "Jed McCaleb",
-      "pocetMinci": "50000000000",
-      "cena": [
-        {
-          "-mena": "USD",
-          "#text": "0,4"
-        },
-        {
-          "-mena": "CZK",
-          "#text": "9,11"
-        }
-      ],
-      "halvingNext": "NaN"
-    },
-    {
-      "nazev": "Polkadot",
-      "zkratka": "DOT",
-      "vObehuOd": "2020",
-      "zalozil": "Gavin Wood",
-      "pocetMinci": "1057896407",
-      "cena": [
-        {
-          "-mena": "USD",
-          "#text": "40"
-        },
-        {
-          "-mena": "CZK",
-          "#text": "866,13"
-        }
-      ],
-      "halvingNext": "NaN"
-    },
-    {
-      "nazev": "Dogecoin",
-      "zkratka": "DOGE",
-      "vObehuOd": "2013",
-      "zalozil": "Billy Markus",
-      "pocetMinci": "inf",
-      "cena": [
-        {
-          "-mena": "USD",
-          "#text": "0,05"
-        },
-        {
-          "-mena": "CZK",
-          "#text": "1,3"
-        }
-      ],
-      "halvingNext": "NaN"
-    },
-    {
-      "nazev": "Monero",
-      "zkratka": "XMR",
-      "vObehuOd": "2014",
-      "zalozil": "Nicolas van Saberhagen",
-      "pocetMinci": "inf",
-      "cena": [
-        {
-          "-mena": "USD",
-          "#text": "234"
-        },
-        {
-          "-mena": "CZK",
-          "#text": "5149,6"
-        }
-      ],
-      "halvingNext": "2021"
-    },
-    {
-      "nazev": "Binance Coin",
-      "zkratka": "BNB",
-      "vObehuOd": "2017",
-      "zalozil": "Brian Chesky",
-      "pocetMinci": "170533651",
-      "cena": [
-        {
-          "-mena": "USD",
-          "#text": "271"
-        },
-        {
-          "-mena": "CZK",
-          "#text": "5953,11"
-        }
-      ],
-      "halvingNext": "NaN"
-    }
-  ],
-  "tokeny": [
-    {
-      "-typ": "NFT",
-      "nazev": "Cryptopunk #5563",
-      "koupe": {
-        "-mena": "ETH",
-        "#text": "1,02"
-      },
-      "vlastnosti": [
-        {
-          "-nazev": "Vape",
-          "#text": "272"
-        },
-        {
-          "-nazev": "Hot Lipstick",
-          "#text": "696"
-        },
-        {
-          "-nazev": "Wild Blonde",
-          "#text": "144"
-        },
-        {
-          "-nazev": "Earring",
-          "#text": "2459"
-        }
-      ]
-    }
-  ],
-  "komodity": [
-    {
-      "-kod": "XAU",
-      "nazev": "Zlato",
-      "cena": {
-        "-mena": "CZK",
-        "#text": "38173,86"
-      },
-      "trh": {
-        "-druh": "Bearish or Bullish",
-        "#text": "Bearish"
-      }
-    },
-    {
-      "-kod": "XAG",
-      "nazev": "Stříbro",
-      "cena": {
-        "-mena": "CZK",
-        "#text": "573,69"
-      },
-      "trh": {
-        "-druh": "Bearish or Bullish",
-        "#text": "Bullish"
-      }
-    }
-  ]
+  }
 }
