@@ -1,0 +1,158 @@
+{
+  "portfolio": [
+    {
+      "akcie": [
+        {
+          "nazev": "Tesla",
+          "cena": 652.1,
+          "mena": "USD",
+          "akcionari": [
+            {
+              "vlastnik": "Martin",
+              "pocetAkcii": 0.35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "krypto": [
+        {
+          "nazev": "Bitcoin",
+          "zkratka": "BTC",
+          "vObehuOd": 2009,
+          "zalozil": "Satoshi Nakamoto",
+          "pocetMinci": "21000000",
+          "cena": 58450,
+          "pristiHalving": "2024"
+        },
+        {
+          "nazev": "Ethereum",
+          "zkratka": "ETH",
+          "vObehuOd": 2014,
+          "zalozil": "Joe Lubin",
+          "pocetMinci": "inf",
+          "cena": 1860,
+          "pristiHalving": "NaN"
+        },
+        {
+          "nazev": "Litecoin",
+          "zkratka": "LTC",
+          "vObehuOd": 2013,
+          "zalozil": "Charlie Lee",
+          "pocetMinci": "84000000",
+          "cena": 204,
+          "pristiHalving": "NaN"
+        },
+        {
+          "nazev": "Ripple",
+          "zkratka": "XRP",
+          "vObehuOd": 2012,
+          "zalozil": "Chris Larsen",
+          "pocetMinci": "100000000000",
+          "cena": 0.48,
+          "pristiHalving": "NaN"
+        },
+        {
+          "nazev": "RavenCoin",
+          "zkratka": "RVN",
+          "vObehuOd": 2011,
+          "zalozil": "Ted Kim",
+          "pocetMinci": "21000000000",
+          "cena": 0.21,
+          "pristiHalving": "2022"
+        },
+        {
+          "nazev": "Stellar",
+          "zkratka": "XLM",
+          "vObehuOd": 2014,
+          "zalozil": "Jed McCaleb",
+          "pocetMinci": "50000000000",
+          "cena": 0.4,
+          "pristiHalving": "NaN"
+        },
+        {
+          "nazev": "Polkadot",
+          "zkratka": "DOT",
+          "vObehuOd": 2020,
+          "zalozil": "Gavin Wood",
+          "pocetMinci": "1057896407",
+          "cena": 40,
+          "pristiHalving": "NaN"
+        },
+        {
+          "nazev": "Dogecoin",
+          "zkratka": "DOGE",
+          "vObehuOd": 2013,
+          "zalozil": "Billy Markus",
+          "pocetMinci": "inf",
+          "cena": 0.05,
+          "pristiHalving": "NaN"
+        },
+        {
+          "nazev": "Monero",
+          "zkratka": "XMR",
+          "vObehuOd": 2014,
+          "zalozil": "Nicolas van Saberhagen",
+          "pocetMinci": "inf",
+          "cena": 234,
+          "pristiHalving": "2021"
+        },
+        {
+          "nazev": "Binance Coin",
+          "zkratka": "BNB",
+          "vObehuOd": 2017,
+          "zalozil": "Brian Chesky",
+          "pocetMinci": "170533651",
+          "cena": 271,
+          "pristiHalving": "NaN"
+        }
+      ]
+    },
+    {
+      "tokeny": [
+        {
+          "nazev": "Cryptopunk #5563",
+          "cena": 1.02,
+          "mena": "ETH",
+          "vlastnosti": [
+            {
+              "vlastnost": "Vape",
+              "pocetDalsichNFT": 272
+            },
+            {
+              "vlastnost": "Hot Lipstick",
+              "pocetDalsichNFT": 696
+            },
+            {
+              "vlastnost": "Wild Blonde",
+              "pocetDalsichNFT": 144
+            },
+            {
+              "vlastnost": "Earring",
+              "pocetDalsichNFT": 2459
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "komodita": [
+        {
+          "nazev": "Zlato",
+          "kod": "XAU",
+          "cena": 38173.86,
+          "mena": "CZK",
+          "trh": "Bearish"
+        },
+        {
+          "nazev": "Stříbro",
+          "kod": "XAG",
+          "cena": 573.69,
+          "mena": "CZK",
+          "trh": "Bullish"
+        }
+      ]
+    }
+  ]
+}
