@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xslt" href="/summary.xslt"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="summary.xsd">
+    <portfolio>
+        <cennePapiry>
+            <akcie>
+                <nazev>Tesla</nazev>
+                <cena mena="USD">652.1</cena>
+                <akcionari>
+                    <pocetAkcii vlastnik="Martin">0.35</pocetAkcii>
+                </akcionari>
+            </akcie>
+        </cennePapiry>
+        <krypto>
+            <kryptomena>
+                <nazev>Bitcoin</nazev>
+                <zkratka>BTC</zkratka>
+                <vObehuOd>2009</vObehuOd>
+                <zalozil>Satoshi Nakamoto</zalozil>
+                <pocetMinci>21000000</pocetMinci>
+                <cena mena="USD">58450</cena>
+                <halvingNext>2024</halvingNext>
+            </kryptomena>
+            <kryptomena>
+                <nazev>Ethereum</nazev>
+                <zkratka>ETH</zkratka>
+                <vObehuOd>2014</vObehuOd>
+                <zalozil>Joe Lubin</zalozil>
+                <pocetMinci>inf</pocetMinci>
+                <cena mena="USD">1860</cena>
+                <halvingNext>9999</halvingNext>
+            </kryptomena>
+            <kryptomena>
+                <nazev>Litecoin</nazev>
+                <zkratka>LTC</zkratka>
+                <vObehuOd>2013</vObehuOd>
+                <zalozil>Charlie Lee</zalozil>
+                <pocetMinci>84000000</pocetMinci>
+                <cena mena="USD">204</cena>
+                <halvingNext>9999</halvingNext>
+            </kryptomena>
+            <kryptomena>
+                <nazev>Ripple</nazev>
+                <zkratka>XRP</zkratka>
+                <vObehuOd>2012</vObehuOd>
+                <zalozil>Chris Larsen</zalozil>
+                <pocetMinci>100000000000</pocetMinci>
+                <cena mena="USD">0.48</cena>
+                <halvingNext>9999</halvingNext>
+            </kryptomena>
+            <kryptomena>
+                <nazev>RavenCoin</nazev>
+                <zkratka>RVN</zkratka>
+                <vObehuOd>2011</vObehuOd>
+                <zalozil>Ted Kim</zalozil>
+                <pocetMinci>21000000000</pocetMinci>
+                <cena mena="USD">0.21</cena>
+                <halvingNext>2022</halvingNext>
+            </kryptomena>
+            <kryptomena>
+                <nazev>Stellar</nazev>
+                <zkratka>XLM</zkratka>
+                <vObehuOd>2014</vObehuOd>
+                <zalozil>Jed McCaleb</zalozil>
+                <pocetMinci>50000000000</pocetMinci>
+                <cena mena="USD">0.4</cena>
+                <halvingNext>9999</halvingNext>
+            </kryptomena>
+            <kryptomena>
+                <nazev>Polkadot</nazev>
+                <zkratka>DOT</zkratka>
+                <vObehuOd>2020</vObehuOd>
+                <zalozil>Gavin Wood</zalozil>
+                <pocetMinci>1057896407</pocetMinci>
+                <cena mena="USD">40</cena>
+                <halvingNext>9999</halvingNext>
+            </kryptomena>
+            <kryptomena>
+                <nazev>Dogecoin</nazev>
+                <zkratka>DOGE</zkratka>
+                <vObehuOd>2013</vObehuOd>
+                <zalozil>Billy Markus</zalozil>
+                <pocetMinci>inf</pocetMinci>
+                <cena mena="USD">0.05</cena>
+                <halvingNext>9999</halvingNext>
+            </kryptomena>
+            <kryptomena>
+                <nazev>Monero</nazev>
+                <zkratka>XMR</zkratka>
+                <vObehuOd>2014</vObehuOd>
+                <zalozil>Nicolas van Saberhagen</zalozil>
+                <pocetMinci>inf</pocetMinci>
+                <cena mena="USD">234</cena>
+                <halvingNext>2021</halvingNext>
+            </kryptomena>
+            <kryptomena>
+                <nazev>Binance Coin</nazev>
+                <zkratka>BNB</zkratka>
+                <vObehuOd>2017</vObehuOd>
+                <zalozil>Brian Chesky</zalozil>
+                <pocetMinci>170533651</pocetMinci>
+                <cena mena="USD">271</cena>
+                <halvingNext>9999</halvingNext>
+            </kryptomena>
+        </krypto>
+        <tokeny>
+            <token typ="NFT">
+                <nazev>Cryptopunk #5563</nazev>
+                <koupe mena="ETH">1.02</koupe>
+                <vlastnosti>
+                    <vlastnost nazev="Vape">
+                        <pocet>272</pocet>
+                    </vlastnost>
+                    <vlastnost nazev="Hot Lipstick">
+                        <pocet>696</pocet>
+                    </vlastnost>
+                    <vlastnost nazev="Wild Blonde">
+                        <pocet>144</pocet>
+                    </vlastnost>
+                    <vlastnost nazev="Earring">
+                        <pocet>2459</pocet>
+                    </vlastnost>
+                </vlastnosti>
+            </token>
+        </tokeny>
+        <komodity>
+            <komodita>
+                <kod>XAU</kod>
+                <nazev>Zlato</nazev>
+                <cena mena="CZK">38173.86</cena>
+                <trh>Bearish</trh>
+            </komodita>
+            <komodita>
+                <kod>XAG</kod>
+                <nazev>Stříbro</nazev>
+                <cena mena="CZK">573.69</cena>
+                <trh>Bullish</trh>
+            </komodita>
+        </komodity>
+    </portfolio>
+</root>

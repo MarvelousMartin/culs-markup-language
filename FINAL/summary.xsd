@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root" type="rootType"/>
+  <xs:complexType name="cenaType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="mena"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="pocetAkciiType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="vlastnik"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="akcionariType">
+    <xs:sequence>
+      <xs:element type="pocetAkciiType" name="pocetAkcii"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="akcieType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="nazev"/>
+      <xs:element type="cenaType" name="cena"/>
+      <xs:element type="akcionariType" name="akcionari"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="cennePapiryType">
+    <xs:sequence>
+      <xs:element type="akcieType" name="akcie"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="kryptomenaType">
+    <xs:sequence>
+      <xs:element name="nazev">
+      </xs:element>
+      <xs:element name="zkratka">
+        <xs:simpleType>
+          <!-- Maximalne 4 uppercase znaky-->
+          <xs:restriction base="xs:string">
+            <xs:pattern value="([A-Z])*"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="vObehuOd">
+        <xs:simpleType>
+          <!-- Prvni kryptomena vznikla 2009 (BTC) -->
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="2009"/>
+            <xs:maxInclusive value="2021"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="zalozil">
+        <xs:simpleType>
+          <!-- Soucet pismen ve jmene a prijmeni max 30 -->
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="30"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="pocetMinci">
+      </xs:element>
+      <xs:element type="cenaType" name="cena" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element name="halvingNext">
+        <xs:simpleType>
+          <!-- Pristi halving nemuze byt drive nez letos -->
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="2021"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="kryptoType">
+    <xs:sequence>
+      <xs:element type="kryptomenaType" name="kryptomena" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="koupeType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="mena">
+          <xs:simpleType>
+            <!-- CryptoPunks jdou koupit pouze pres ETH blockchain -->
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="ETH"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="vlastnostType">
+    <xs:sequence>
+      <xs:element name="pocet">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="10000"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="nazev"/>
+  </xs:complexType>
+  <xs:complexType name="vlastnostiType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="vlastnostType" name="vlastnost"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="tokenType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="nazev"/>
+      <xs:element type="koupeType" name="koupe"/>
+      <xs:element type="vlastnostiType" name="vlastnosti"/>
+    </xs:sequence>
+    <xs:attribute name="typ">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <!-- NFT tokeny jsou akceptovatelné -->
+          <xs:enumeration value="NFT"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="tokenyType">
+    <xs:sequence>
+      <xs:element type="tokenType" name="token"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="trhType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="druh"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="komoditaType">
+    <xs:sequence>
+      <xs:element name="kod">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[X][A-Z][A-Z]"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="nazev">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <!-- Pouze zlato, stříbro a ropa -->
+            <xs:enumeration value="Zlato"/>
+            <xs:enumeration value="Stříbro"/>
+            <xs:enumeration value="Ropa"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="cenaType" name="cena"/>
+      <xs:element name="trh">
+        <xs:simpleType>
+          <!-- Jiné trhy nez býčí a medvědí neexistují -->
+          <xs:restriction base="xs:string">
+            <xs:pattern value="Bullish|Bearish"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="komodityType">
+    <xs:sequence>
+      <xs:element type="komoditaType" name="komodita" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="portfolioType">
+    <xs:sequence>
+      <xs:element type="cennePapiryType" name="cennePapiry"/>
+      <xs:element type="kryptoType" name="krypto"/>
+      <xs:element type="tokenyType" name="tokeny"/>
+      <xs:element type="komodityType" name="komodity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="rootType">
+    <xs:sequence>
+      <xs:element type="portfolioType" name="portfolio"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
